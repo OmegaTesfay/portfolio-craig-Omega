@@ -1,0 +1,26 @@
+
+.contact {
+  width: auto;
+  background-color:lightblue;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+li {
+  margin: 10px;
+  color: black;
+}
+
+ul {
+  
+  padding: 15px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 530px;) {
+  .contact {
+    width: 100%;
+  }
+}
