@@ -9,7 +9,6 @@ import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 import { QuizComponent } from './quiz/quiz.component';
 
-
 const routes: Routes = [
    { path: '', redirectTo: 'about', pathMatch: 'full' },
    { path: 'about', component: AboutComponent,  data: { depth: 1 } },
